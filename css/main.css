@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700');
+
+a {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+p {
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'PT Sans', sans-serif;
+}
+
+hr {
+	border-top: 1px solid #a2a2a2;
+}
+
+.navbar-brand>img {
+    width: 190px;
+}
+
+.navbar-inverse {
+    background: transparent;
+    background-image: url(../images/bgcolor.png);
+    border-bottom-color: #5a5a5a;
+    padding-bottom: 5px;
+    border-radius: 0px;
+}
+
+.nav.navbar-nav {
+    margin-top: 12px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #dcdcdc;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #4c7bcf;
+    background-color: transparent;
+}
+
+.header-bot-pedir {
+    position: absolute;
+    background: #fff;
+    padding: 5px 25px 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.header-bot-pedir:hover {
+	color: #da0505;
+	text-decoration: none;
+	font-weight: bold;
+	background: #f9f9f9;
+}
+
+a.header-bot-pedir{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.section-background {
+  background: url(../images/fogao.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 26%;
+  padding-bottom: 26%;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.barra p {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+span.whats {
+    color: #2dea00;
+}
+
+span.h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p.ou {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+a.background-bot-pedir {
+    background: #fff;
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.background-bot-pedir-mobile {
+    display: none;
+}
+
+a.background-bot-pedir:hover {
+    color: #da0505;
+}
+
+.barra img {
+    margin-top: 30px;
+    width: 200px;
+}
+
+.barra {
+    background-image: url(../images/bgcolor.png);
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    top: 32%;
+}
+
+.prod {
+    padding-top: 20px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.prod img {
+    width: 80%;
+}
+
+.prod:hover {
+    text-decoration: none;
+    box-shadow: 10px 10px 15px #d0d0d0;
+    -webkit-transition: all 400ms ease-in;
+    -moz-transition: all 400ms ease-in;
+    -ms-transition: all 400ms ease-in;
+    -o-transition: all 400ms ease-in;
+    transition: all 400ms ease-in;
+}
+
+span.red {
+    color: #da0505;
+}
+
+span.white {
+    color: #fff;
+}
+
+.section-prod {
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.prod .background-bot-pedir {
+    background: #1354c7;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+}
+
+.prod .ou{
+	margin-left: 0px;
+}
+
+.section-prod h1 {
+	padding-bottom: 20px;
+}
+
+.divi1{
+  background-image: url(../images/empresa.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+  height: 60%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.section-empresa {
+    background: #08348e;
+    padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+.section-empresa p {
+    color: #fff;
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.section-empresa img {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 15px 15px 40px #000;
+}
+
+.divi2{
+  background-image: url(../images/caminhao.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+  height: 60%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.section-entrega .title h1 {
+    padding-bottom: 50px;
+}
+
+.section-entrega h4 {
+    font-weight: bold;
+    padding-left: 3px;
+    padding-bottom: 50px;
+}
+
+.section-entrega h1 {
+    padding-top: 50px;
+}
+
+.section-entrega ul {
+    padding-top: 65px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.section-entrega p {
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #da0505;
+}
+
+.infoBox { background-color: #FFF; width: 300px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; border: 2px solid #3fa7d8; border-radius: 3px; margin-top: 10px }
+.infoBox p { padding: 0 15px }
+.infoBox:before { border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #3fa7d8; top: -10px; content: ""; height: 0; position: absolute; width: 0; left: 138px }
+
+.divi3{
+  background-image: url(../images/botijao.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+  height: 60%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.section-pedir{
+    background: #08348e;
+}
+
+.section-pedir h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box {
+    padding-top: 100px;
+}
+
+a.bot {
+    padding: 30px;
+    background: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.bot:hover {
+    color: #fff;
+    background: #da0505;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer li a {
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+footer a:hover {
+    color: #da0505;
+}
+
+footer li {
+    list-style: none;
+    margin-left: -22px;
+}
+
+.faixa {
+    background: #da0505;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.rodape {
+    background: #08348e;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.rodape img {
+    width: 20%;
+    padding-top: 6px;
+}
+
+
+
+/******************
+      MOBILE 
+******************/
+
+@media screen and (max-width: 768px) {
+
+  a.background-bot-pedir{
+    display: none;
+  }
+
+  a.background-bot-pedir-mobile {
+    background: #fff;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .prod .background-bot-pedir-mobile {
+    background: #1354c7;
+    color: #fff;
+  }
+
+  .section-background{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .barra{
+    padding-bottom: 20px;
+    padding-top: 0px;
+    top: inherit;
+  }
+
+  .barra img{
+    display: none;
+  }
+
+  .barra p {
+    text-align: center;
+  }
+
+  p.ou {
+      margin-top: 20px;
+      margin-left: 0px;
+  }
+
+  div#navbar-collapse-4 {
+    padding-bottom: 50px;
+  }
+
+  .header-bot-pedir {
+    left: 15px;
+  }
+
+  .section-prod h2 {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .section-entrega ul {
+    padding-top: 0px;
+  }
+
+  .section-entrega h4 {
+    padding-bottom: 20px;
+  }
+
+  .divi1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .divi2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .divi3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+  /*** 
+
+  ADD CASO MOBILE FICAR PESADO
+  
+  div#mapa {
+    display: none;
+  }
+
+  .section-entrega .title {
+    display: none;
+  }
+  ***/
+
+  .section-entrega p {
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: left;
+  }
+
+  .section-pedir {
+    padding-bottom: 100px;
+  }
+
+  .section-pedir h1 {
+    padding-bottom: 0px;
+  }
+
+  .footer-mobile{
+    text-align: center;
+  }
+
+  .footer-mobile li a {
+    margin-left: -15px;
+    padding-bottom: 10px;
+  }
+
+  .footer-mobile ul {
+    padding-bottom: 15px;
+  }
+
+  footer li {
+    padding-bottom: 5px;
+  }
+
+  .mantis-mobile{
+    text-align: center;
+  }
+
+  .rodape img {
+    width: 30%;
+  }
+
+}
